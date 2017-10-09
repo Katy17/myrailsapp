@@ -8,12 +8,13 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-
+    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
   </head>
-
+  
   <body>
     <nav class= "navbar navbar-fixed-top">
   		<ul class="nav navbar-nav navbar-left">
@@ -22,12 +23,11 @@
         <li><%= link_to "Contact", static_pages_contact_path, class: "nav-item" %></li>
   		</ul>
   	</nav>
+    
     <div class="page-wrap">
-
       <%= yield %>
-
     </div>
-
+    
     <footer class="site-footer">
     	&copy; 2017 Bike Berlin
     </footer>
