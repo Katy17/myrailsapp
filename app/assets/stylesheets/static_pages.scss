@@ -18,6 +18,8 @@ body {
   padding-top: 0px;
 }
 
+.spacing { padding-top: 60px; }
+
 .navbar { background-color: #ccd9ff; }
 
 .navbar a {
@@ -35,14 +37,13 @@ body {
 .title {
   font-size: 30px;
   font-weight: bold;
-  margin-top: 70px;
 } 
 
 .home-contect { font-size: 24px; }
 
 .page-wrap {
   min-height: 100%;
-  margin-bottom: -75px; 
+  margin-bottom: -60px; 
 }
 
 .page-wrap:after {
