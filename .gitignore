@@ -22,5 +22,4 @@
 
 .byebug_history
 
-# Ignore files in public/assets
-public/assets/**
+

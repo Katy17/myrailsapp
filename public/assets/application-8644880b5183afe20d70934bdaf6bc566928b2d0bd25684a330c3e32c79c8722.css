@@ -1,0 +1,149 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* { 
+  box-sizing: border-box;
+  margin: 0; 
+  }
+
+html, body { height: 100% }
+
+body {
+  background-color: #fffeee;
+  padding-top: 0px;
+}
+
+.navbar { background-color: #ccd9ff; }
+
+.navbar a {
+  color: #000066;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main {
+  font-family: Helvetica, "Times New Roman", Georgia, Serif;
+  color: #000;
+  padding: 10px 0 10px 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+} 
+
+.home-contect { font-size: 24px; }
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -75px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after { height: 75px; }
+
+.site-footer {
+  background-color: #ccd9ff; 
+  font-family: Helvetica, "Times New Roman", Georgia, Serif;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* line 5, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 10, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+body {
+  background-color: #fffeee;
+  padding-top: 0px;
+}
+
+/* line 17, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.navbar {
+  background-color: #ccd9ff;
+}
+
+/* line 19, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.navbar a {
+  color: #000066;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 25, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.main {
+  font-family: Helvetica, "Times New Roman", Georgia, Serif;
+  color: #000;
+  padding: 10px 0 10px 20px;
+}
+
+/* line 31, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+/* line 37, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.home-contect {
+  font-size: 24px;
+}
+
+/* line 39, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -75px;
+}
+
+/* line 44, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+/* line 49, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.site-footer, .page-wrap:after {
+  height: 75px;
+}
+
+/* line 51, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.site-footer {
+  background-color: #ccd9ff;
+  font-family: Helvetica, "Times New Roman", Georgia, Serif;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ 
