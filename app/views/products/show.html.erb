@@ -1,19 +1,20 @@
-<p id="notice"><%= notice %></p>
+<h1 class="main title">Products</h1>
+<p class="body-text" id="notice"><%= notice %></p>
 
-<p>
+<p class="body-text">
   <strong>Name:</strong>
   <%= @product.name %>
-</p>
+</p><br >
 
-<p>
+<p class="body-text">
   <strong>Description:</strong>
   <%= @product.description %>
-</p>
+</p><br >
 
-<p>
+<p class="body-text">
   <strong>Image url:</strong>
   <%= @product.image_url %>
-</p>
+</p><br >
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
