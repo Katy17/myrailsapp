@@ -2,10 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-// Place all the styles related to the static_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 * { 
   box-sizing: border-box;
   margin: 0; 
@@ -14,7 +10,7 @@
 html, body { height: 100% }
 
 body {
-  background-color: #fffeee;
+  background-color: #fff;
   padding-top: 0px;
   margin: 0px;
 }
@@ -26,9 +22,16 @@ body {
 .navbar { background-color: #ccd9ff; }
 
 .navbar a {
-  color: #000066;
+  color: #000066 !important;
   font-weight: bold;
   font-size: 20px;
+}
+
+.navbar a:hover {
+background-color: #d9d9d9 !important;
+color: #ff6633 !important;
+transition: color 400ms ease !important;
+-webkit-transition: color 400ms ease !important;
 }
 
 .main {
@@ -76,4 +79,30 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+
+// products index view
+
+
+.product-images {
+  height: 250px;
+  width: auto;
+  margin: 10px auto;
+}
+
+.product-item {
+  border: 1px solid #d9d9d9;
+  padding: 5px;
+}
+
+.product-info {
+  text-align: center;
+}
+
+.navbar-toggle, .icon-bar {
+  position: relative;
+  transition: all 400ms ease-in-out;
+}
+
+
 
