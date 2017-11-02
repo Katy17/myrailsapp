@@ -21,13 +21,13 @@ body {
 
 .navbar { background-color: #ccd9ff; }
 
-.navbar a {
+.nav .navbar-item {
   color: #000066 !important;
   font-weight: bold;
   font-size: 20px;
 }
 
-.navbar a:hover {
+.nav .navbar-item:hover {
 background-color: #d9d9d9 !important;
 color: #ff6633 !important;
 transition: color 400ms ease !important;
