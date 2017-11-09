@@ -49,6 +49,7 @@ transition: color 400ms ease !important;
 .content { font-size: 24px; }
 
 .body-text {
+  display: block;
   padding-left: 30px;
   font-size: 18px;
 }
@@ -85,15 +86,12 @@ transition: color 400ms ease !important;
 
 
 .product-images {
-  height: 250px;
+  height: 180px;
   width: auto;
-  margin: 10px auto;
+  margin: 30px auto;
 }
 
-.product-item {
-  border: 1px solid #d9d9d9;
-  padding: 5px;
-}
+.product-item { padding: 0px; }
 
 .product-info {
   text-align: center;
@@ -104,5 +102,59 @@ transition: color 400ms ease !important;
   transition: all 400ms ease-in-out;
 }
 
+.admin-links {
+  text-align: center;
+  padding: 20px 5px 10px 5px;
+  margin: 10px 10px 30px 10px;
+}
+
+.links-to-pages li {
+  display: inline;
+  padding: 15px;
+}
+
+.links-to-pages {
+  padding: 5px;
+}
+
+.links-to-pages a {
+  color: #003399;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.links-to-pages a:hover{
+  color: #cc2900;
+  background-color: #e6e6e6;
+}
 
 
+button.new-product {
+  float: right;
+  margin-right: 30px;
+}
+
+button.new-product a { color: #fff; }
+
+button.new-product a:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.form-control {
+  width: 80%;
+  margin: 10px 10px 10px 50px;
+}
+
+.form-label { margin: 10px 50px; }
+
+.product-show-image {
+  height: 250px;
+  width: auto;
+  margin: 20px 30px;
+}
+
+.product-name-title {
+  color: #000;
+  font-size: 22px;
+}

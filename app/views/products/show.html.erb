@@ -1,5 +1,6 @@
-<h1 class="main title">Products</h1>
 <p class="body-text" id="notice"><%= notice %></p>
+
+<h1 class="main title">Products</h1>
 
 <p class="body-text">
   <strong>Name:</strong>
@@ -11,10 +12,11 @@
   <%= @product.description %>
 </p><br >
 
-<p class="body-text">
-  <strong>Image url:</strong>
-  <%= @product.image_url %>
-</p><br >
+<div>
+
+  <%= image_tag(@product.image_url, class: "img-responsive product-show-image") %>
+
+</div>
 
 <p class="body-text">
   <strong>Colour:</strong>
@@ -27,7 +29,10 @@
 </p><br >
 
 
+<div class="admin-links">
+  <ul class="links-to-pages">
+    <li><%= link_to 'Edit', edit_product_path(@product) %></li>
+    <li><%= link_to 'Back', products_path %></li>
+  </ul>
+</div>
 
-
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
