@@ -11,43 +11,41 @@
     </div>
   <% end %>
   <div class="form-container">
-    <div class="row">
-      <div class="col-lg-1 col-md-2" ></div>
-      <div class="col-lg-10 col-md-8 col-xs-12">
-        <form class="links-form">
-          <div class="form-group">
-            <%= form.label :name, class: "form-label" %>
-            <%= form.text_field :name, id: :product_name, class: "form-control" %>
-          </div>
+    <div class="col-lg-1 col-md-2" ></div>
+    <div class="col-lg-10 col-md-8 col-xs-12">
+      <form class="links-form">
+        <div class="form-group">
+          <%= form.label :name, class: "form-label" %>
+          <%= form.text_field :name, id: :product_name, class: "form-control" %>
+        </div>
 
-          <div class="form-group">
-            <%= form.label :description, class: "form-label" %>
-            <%= form.text_area :description, id: :product_description, class: "form-control", size: '50x5' %>
-          </div>
+        <div class="form-group">
+          <%= form.label :description, class: "form-label" %>
+          <%= form.text_area :description, id: :product_description, class: "form-control", size: '50x5' %>
+        </div>
 
-          <div class="form-group">
-            <%= form.label :image_url, class: "form-label" %>
-            <%= form.text_field :image_url, id: :product_image_url, class: "form-control" %>
-          </div>
+        <div class="form-group">
+          <%= form.label :image_url, class: "form-label" %>
+          <%= form.text_field :image_url, id: :product_image_url, class: "form-control" %>
+        </div>
 
-          <div class="form-group">
-            <%= form.label :colour, class: "form-label" %>
-            <%= form.text_field :colour, id: :product_colour, class: "form-control" %>
-          </div>
+        <div class="form-group">
+          <%= form.label :colour, class: "form-label" %>
+          <%= form.text_field :colour, id: :product_colour, class: "form-control" %>
+        </div>
 
-          <div class="form-group">
-            <%= form.label :price, class: "form-label" %>
-            <%= form.text_field :price, id: :product_price, class: "form-control" %>
-          </div>
+        <div class="form-group">
+          <%= form.label :price, class: "form-label" %>
+          <%= form.text_field :price, id: :product_price, class: "form-control" %>
+        </div>
 
-          <div class="actions">
-            <%= form.submit 'Submit' %>
-          </div>
-        <% end %>
-      </form>
+        <div class="actions">
+          <%= form.submit 'Submit' %>
+        </div> 
+    </form>
     <div class="col-lg-1 col-md-2"></div>
   </div>
 </div><!-- end container -->
 
-
+<% end %>
 

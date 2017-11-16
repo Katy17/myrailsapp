@@ -38,6 +38,13 @@
           <li><%= link_to "Contact", static_pages_contact_path, class: "nav-item" %></li>
         </ul>
       </div><!-- nav -->
+      <!-- search form -->
+      <%= form_with(url: products_path, method: 'get', local: true, class: 'search-form') do |form| %>
+        <%= form.label :q, 'Search for:' %>
+        <%= form.text_field :q, id: 'q', value: params[:q] %>
+        <%= form.submit 'Search' %>
+      <% end %> <!-- search from end -->
+      
     </div> <!-- end nav container -->
   </nav><!-- end navbar -->
     
