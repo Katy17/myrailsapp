@@ -1,0 +1,349 @@
+/* line 5, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/products.scss */
+.main {
+  font-family: Helvetica, "Times New Roman", Georgia, Serif;
+  color: #000;
+  padding: 10px 0 10px 20px;
+}
+
+/* line 11, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/products.scss */
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+/* line 17, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/products.scss */
+.body-text {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+/* line 22, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/products.scss */
+.field {
+  padding: 10px 0px 10px 20px;
+}
+
+/* line 27, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/products.scss */
+.actions {
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+/* line 32, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/products.scss */
+.testing {
+  color: green;
+}
+/* line 1, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/* line 5, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 10, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+body {
+  background-color: #fff;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+/* line 18, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.container {
+  margin: 0px;
+}
+
+/* line 22, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.navbar {
+  background-color: #ccd9ff;
+}
+
+/* line 24, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.navbar a {
+  color: #000066 !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 30, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.navbar a:hover {
+  background-color: #d9d9d9 !important;
+  color: #ff6633 !important;
+  transition: color 400ms ease !important;
+  -webkit-transition: color 400ms ease !important;
+}
+
+/* line 37, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.main {
+  font-family: Helvetica, "Times New Roman", Georgia, Serif;
+  color: #000;
+  padding: 10px 0 10px 20px;
+}
+
+/* line 43, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+/* line 49, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.content {
+  font-size: 24px;
+}
+
+/* line 51, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.body-text {
+  display: block;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+/* line 57, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.page-wrap {
+  eight: auto;
+  min-height: 100%;
+  margin: 0px;
+  margin-bottom: -50px;
+}
+
+/* line 64, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+/* line 69, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.site-footer, .page-wrap:after {
+  height: 50px;
+}
+
+/* line 71, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.site-footer {
+  background-color: #ccd9ff;
+  font-family: Helvetica, "Times New Roman", Georgia, Serif;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* line 79, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.index-image {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 88, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.product-images {
+  height: 180px;
+  width: auto;
+  margin: 30px auto;
+}
+
+/* line 94, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.product-item {
+  padding: 0px;
+}
+
+/* line 96, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.product-info {
+  text-align: center;
+}
+
+/* line 100, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.navbar-toggle, .icon-bar {
+  position: relative;
+  transition: all 400ms ease-in-out;
+}
+
+/* line 105, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.admin-links {
+  text-align: center;
+  padding: 20px 5px 10px 5px;
+  margin: 10px 10px 30px 10px;
+}
+
+/* line 111, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.links-to-pages li {
+  display: inline;
+  padding: 15px;
+}
+
+/* line 116, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.links-to-pages {
+  padding: 5px;
+}
+
+/* line 120, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.links-to-pages a {
+  color: #003399;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 126, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.links-to-pages a:hover {
+  color: #cc2900;
+  background-color: #e6e6e6;
+}
+
+/* line 132, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+button.new-product {
+  float: right;
+  margin-right: 30px;
+}
+
+/* line 137, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+button.new-product a {
+  color: #fff;
+}
+
+/* line 139, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+button.new-product a:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* line 144, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.form-control {
+  width: 80%;
+  margin: 10px 10px 10px 50px;
+}
+
+/* line 149, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.form-label {
+  margin: 10px 50px;
+}
+
+/* line 151, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.product-show-image {
+  height: 250px;
+  width: auto;
+  margin: 20px 30px;
+}
+
+/* line 157, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+.product-name-title {
+  color: #000;
+  font-size: 22px;
+}
+
+/* line 162, /Users/katayounmesgarian/myrailsapp/app/assets/stylesheets/static_pages.scss */
+form.search-form {
+  float: right;
+  margin: 0 10px 10px 0;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ 
