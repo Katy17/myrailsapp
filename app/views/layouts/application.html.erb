@@ -34,9 +34,20 @@
         <ul class="nav navbar-nav navbar-left">
           <li><%= link_to "Home", root_path, class: "nav-item" %></li>
           <li><%= link_to "Products", products_path, class: "nav_item" %></li>
+          <li><%= link_to "Orders", orders_path, class: "nav_item" %></li>
           <li><%= link_to "About", static_pages_about_path, class: "nav-item" %></li>
           <li><%= link_to "Contact", static_pages_contact_path, class: "nav-item" %></li>
         </ul>
+        <!-- login/logout button -->
+        <ul class="nav pull-right">
+          <li>
+            <% if user_signed_in? %>
+              <%= link_to('Logout', destroy_user_session_path) %>
+            <% else %>
+              <%= link_to('Login', new_user_session_path) %>
+            <% end %>
+          </li>
+        </ul><!-- end of login/logout button -->
         <!-- search form -->
         <%= form_with(url: products_path, method: 'get', local: true, class: 'search-form') do |form| %>
           <%= form.label :q, 'Search for:' %>
@@ -46,9 +57,11 @@
       </div><!-- nav --> 
     </div> <!-- end nav container -->
   </nav><!-- end navbar -->
+
     <!-- flash notice tags -->
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p> <!-- end flash notice tags -->
+    
     <div class="page-wrap">
       <%= yield %>
     </div>
