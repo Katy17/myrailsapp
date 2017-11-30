@@ -1,33 +1,41 @@
 <p class="body-text" id="notice"><%= notice %></p>
 
-<h1 class="main title">Products</h1>
+<!-- higest rating product -->
+<!-- <%= @product.highest_rating_comment %> -->
+  <div class="row">
+    <div class="col-md-8 col-xs-12">
+      <div>
+        <%= image_tag(@product.image_url, class: "img-responsive product-show-image") %>
+      </div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <div class="product-info-box">
+        <p class="product-info-text">
+          <strong>Name:</strong>
+          <%= @product.name %>
+        </p>
 
-<p class="body-text">
-  <strong>Name:</strong>
-  <%= @product.name %>
-</p><br >
+        <p class="product-info-text">
+          <strong>Description:</strong>
+          <%= @product.description %>
+        </p>
 
-<p class="body-text">
-  <strong>Description:</strong>
-  <%= @product.description %>
-</p><br >
+        <p class="product-info-text">
+          <strong>Colour:</strong>
+          <%= @product.colour %>
+        </p>
 
-<div>
+        <p class="product-info-text price-text">
+          <strong>Price: </strong>
+          <%= number_to_currency(@product.price, unit: '£', precision: 2) %>
+        </p>
 
-  <%= image_tag(@product.image_url, class: "img-responsive product-show-image") %>
+        <p class="product-info-text">Average Rating: ..... </p>
 
-</div>
-
-<p class="body-text">
-  <strong>Colour:</strong>
-  <%= @product.colour %>
-</p><br >
-
-<p class="body-text">
-  <strong>Price: </strong>
-  <%= number_to_currency(@product.price, unit: '£', precision: 2) %>
-</p><br >
-
+      </div>
+    </div>
+  </div>
+<br >
 
 <div class="admin-links">
   <ul class="links-to-pages">
@@ -35,4 +43,17 @@
     <li><%= link_to 'Back', products_path %></li>
   </ul>
 </div>
+
+<hr >
+
+<div claas="rating-review-section"> 
+      <h2><small>Rating & Reviews:</small></h2>
+</div>
+
+
+
+
+
+
+
 
