@@ -179,7 +179,7 @@ form.search-form {
 }
 
 .product-info-box {
-  border-left: 2px solid #000;
+  border-left: 2px solid #bfbfbf;
   margin: 5px 10px;
   padding-top: 10px;
 }
@@ -196,6 +196,14 @@ div.product-info-box {
 }
 
 .price-text { color: #003399; }
+
+div.product-reviews, div.product-comment {
+  margin: 50px 100px 10px 100px;
+}
+
+.rated {
+  margin-left: 20px;
+}
 
 
 
