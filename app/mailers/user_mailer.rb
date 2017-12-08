@@ -1,7 +1,9 @@
 class UserMailer < ApplicationMailer
-  default from: "from@example.com" # this will be replaced by a real email address
+  default from: "costumer@example.com" # this will be replaced by a real email address
 
   def contact_form(email, name, message)
+    @email = email
+    @name = name
     @message = message
     mail(from: email,
        to: 'info.ktcodes@gmail.com',
