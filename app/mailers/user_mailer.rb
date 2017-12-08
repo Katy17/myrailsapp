@@ -1,11 +1,11 @@
 class UserMailer < ApplicationMailer
-  default from: "from@example.com"
+  default from: "from@example.com" # this will be replaced by a real email address
 
   def contact_form(email, name, message)
-  @message = message
+    @message = message
     mail(from: email,
-         to: 'info.ktcodes@gmail.com',
-         subject: "A new contact form message from #{name}")
+       to: 'info.ktcodes@gmail.com',
+       subject: "A new contact form message from #{name}")
   end
 
   def welcome(user)
@@ -13,7 +13,7 @@ class UserMailer < ApplicationMailer
     mail(to: user.email,
       subject: "Welcome to #{@appname}!")
   end
-  
+
 
   def thank_you
   @name = params[:name]
