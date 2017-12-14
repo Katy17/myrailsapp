@@ -49,6 +49,7 @@ group :development, :test do
   gem 'sqlite3'
   # adding rspec testing framework
   gem 'rspec-rails', '~>3.6'
+  gem 'factory_bot_rails'
 end
 
 group :development do
@@ -71,6 +72,7 @@ gem 'cancancan', '~> 1.10'
 gem 'will_paginate', '~> 3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'rails-controller-testing'
+
 
 
 
