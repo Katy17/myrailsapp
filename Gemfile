@@ -49,7 +49,7 @@ group :development, :test do
   gem 'sqlite3'
   # adding rspec testing framework
   gem 'rspec-rails', '~>3.6'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '~>4.0'
 end
 
 group :development do
