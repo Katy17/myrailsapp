@@ -7,4 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Product.create(name: "seed-generated product", description: "I also created this product without using the HTML form!")
+Product.create(name: "Genesis Beta",
+              description: "Kid's bike",
+              image_url: "http://www.wigglestatic.com/product-media/100227821/Zenium-VR-Disc-105-2017-Road-Bike-Road-Bikes-White-NotSet-VB17ZVRDRWB50.jpg?w=2000&h=2000&a=7",
+              colour: "white",
+              price: "25")
