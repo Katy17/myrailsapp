@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   end
 
   resources :orders, only: [:index, :show, :create, :destroy]
-  get 'static_pages/about'
+  get 'static_pages/about' #controllername/method(view)
 
   get 'static_pages/contact'
 
@@ -16,10 +16,13 @@ Rails.application.routes.draw do
 
   post 'static_pages/thank_you'
 
+  post 'payments/create' 
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   #rerooted from 'static_pages#landing_page'
   root 'static_pages#landing_page'
+
 
 
 end

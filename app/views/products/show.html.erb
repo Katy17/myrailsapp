@@ -24,6 +24,7 @@
       <div class="product-info-text">
       <%= form_with(url: '/payment/create') do |form| %>
         <%= render partial: "shared/stripe_checkout_button" %>
+        <%= hidden_field_tag(:product_id, @product.id) %>
         <% end %>
       </div>
         
