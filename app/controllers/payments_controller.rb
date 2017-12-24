@@ -23,6 +23,9 @@ class PaymentsController < ApplicationController
         total: @product.price.to_i
         ) 
       UserMailer.order_paced(@user, @product).deliver_now
+      redirect_to product_path(@product)
+      flash[:notice] = "Thank you for purchasing #{@product.name}"
+
     end
 
     rescue Stripe::CardError => e
@@ -31,7 +34,8 @@ class PaymentsController < ApplicationController
       err = body[:error]
       flash[:error] = "Unfortunately, there was an error processing your payment: #{err[:message]}"
     end
-    redirect_to :back
+    
   end
+
 
 end
