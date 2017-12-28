@@ -23,8 +23,6 @@ class PaymentsController < ApplicationController
         total: @product.price.to_i
         ) 
       UserMailer.order_paced(@user, @product).deliver_now
-      redirect_to product_path(@product)
-      flash[:notice] = "Thank you for purchasing #{@product.name}"
 
     end
 
@@ -34,8 +32,9 @@ class PaymentsController < ApplicationController
       err = body[:error]
       flash[:error] = "Unfortunately, there was an error processing your payment: #{err[:message]}"
     end
-    
-  end
 
+     redirect_to product_path(@product)
+
+  end
 
 end
