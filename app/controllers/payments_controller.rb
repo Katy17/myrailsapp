@@ -22,7 +22,7 @@ class PaymentsController < ApplicationController
         user_id: @user.id,
         total: @product.price.to_i
         ) 
-      UserMailer.order_paced(@user, @product).deliver_now
+      UserMailer.order_placed(@user, @product).deliver_now
 
     end
 

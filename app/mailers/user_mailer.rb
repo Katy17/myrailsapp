@@ -24,4 +24,12 @@ class UserMailer < ApplicationMailer
   UserMailer.contact_form(@email, @name, @message).deliver_now
   end
 
+
+  def order_placed(user, product)
+    @user = user
+    @product = product
+    mail(:from => 'info.ktcodes@@gmail.com',
+         :to => user.email,
+         :subject => "Your order of the #{product.name} has been placed.")
+  end
 end
