@@ -17,8 +17,6 @@
         <%= number_to_currency(@product.price, unit: '£', precision: 2) %>
       </p>
       <p class="product-info-text">Average Rating: <div class="rated" data-score="<%= @product.average_rating %>"></div></p>
-      <!-- higest rating product -->
-      <!-- <%= @product.highest_rating_comment %> -->
       <br >
       <!-- stripe checkout -->
       <div class="product-info-text">

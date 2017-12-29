@@ -10,11 +10,11 @@ class Product < ApplicationRecord
   end
 
   def highest_rating_comment
-    comments.rating_desc.first.rating
+    comments.rating_desc.first&.rating
   end
 
   def lowest_rating_comment
-    comments.rating_asc.first.rating
+    comments.rating_asc.first&.rating
   end
 
   def average_rating
