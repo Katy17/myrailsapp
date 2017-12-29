@@ -28,7 +28,7 @@ class UserMailer < ApplicationMailer
   def order_placed(user, product)
     @user = user
     @product = product
-    mail(:from => 'info.ktcodes@@gmail.com',
+    mail(:from => 'info.ktcodes@gmail.com',
          :to => user.email,
          :subject => "Your order of the #{product.name} has been placed.")
   end
