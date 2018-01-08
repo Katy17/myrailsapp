@@ -73,6 +73,7 @@ gem 'will_paginate', '~> 3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'rails-controller-testing'
 gem 'stripe'
+gem 'dalli'
 
 
 

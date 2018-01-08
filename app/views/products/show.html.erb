@@ -1,4 +1,5 @@
 <div class="row">
+  
   <div class="col-md-6 col-xs-12">
     <div>
       <%= image_tag(@product.image_url, class: "img-responsive product-show-image img-zoom", data_zoom_image: @product.image_url) %>
@@ -6,11 +7,13 @@
   </div>
   <div class="col-md-6 col-xs-12">
     <div class="product-info-box">
-      <p class="product-info-text">
-        <strong><%= @product.name %></strong></p>
-      <p class="product-info-text">
-        <%= @product.description %>, <%= @product.colour %>
-      </p>
+      <% cache @product do %> <!-- to cache a product -->
+        <p class="product-info-text">
+          <strong><%= @product.name %></strong></p>
+        <p class="product-info-text">
+          <%= @product.description %>, <%= @product.colour %>
+        </p>
+      <% end %> <!-- end of caching a product -->
       <br >
       <p class="product-info-text price-text">
         <strong>Price: </strong>

@@ -1,3 +1,4 @@
+<% cache product do %>
 <div class="product-item col-lg-3 col-md-4 col-xs-12">
     <%= link_to image_tag(product.image_url, class: "img-responsive product-images"), product %>
     <div class="product-info">
@@ -14,5 +15,5 @@
       <hr >
     </div>
 </div> 
-
+<% end %>
 <% logger.debug "HERE I AM Product: #{product.name}"%>
