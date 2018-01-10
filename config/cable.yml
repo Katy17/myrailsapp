@@ -5,6 +5,6 @@ test:
   adapter: async
 
 production:
-  adapter: redis
+  adapter: postgresql
   url: postgres://bswpstssykadrm:9d085b5b1d9a1406db2df8c4ba0affe9c884f04ee0aa4c0c129359bbeec0bcb8@ec2-107-22-187-21.compute-1.amazonaws.com:5432/dd1divn64bmgbg
   channel_prefix: myrailsapp_production
