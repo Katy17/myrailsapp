@@ -1,12 +1,14 @@
+<h1>
+  My Orderssssss
+</h1>
 <div class="row">
   <% @orders.each do |order| %>
     <div class="col-sm-2 col-md-4">
-      <h1>
-        Order # <%= order.id %>:
-        <%= link_to order.product.name, order.product %>
-      </h1>
-      <p><%= order.product.description %></p>
-      <strong>$ <%= order.product.price %></strong>
-    </div><!-- /col -->
+      <h2>Order # <%= order.id %></h2>
+      <p>Product: <%= order.product.name %></p>
+      <strong>Total: $<%= order.total %></strong>
+    </div>
   <% end %>
+ </div>
+<%= link_to 'Back', root_path, class: "btn btn-defualt btn-link btn-lg" %>
 </div>

@@ -23,6 +23,6 @@ Rails.application.routes.draw do
   #rerooted from 'static_pages#landing_page'
   root 'static_pages#landing_page'
 
-
+  mount ActionCable.server => '/cable'
 
 end
