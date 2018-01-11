@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" data-product-id="<%= @product.id %>">
   
   <div class="col-md-6 col-xs-12">
     <div>
@@ -19,7 +19,7 @@
         <strong>Price: </strong>
         <%= number_to_currency(@product.price, unit: '£', precision: 2) %>
       </p>
-      <p class="product-info-text">Average Rating: <div id="#average-rating" class="rated" data-score="<%= @product.average_rating %>"></div></p>
+      <p class="product-info-text">Average Rating: <div id="average-rating" class="rated" data-score="<%= @product.average_rating %>"></div></p>
       <!-- higest rating product -->
       <p class="product-info-text"> Highest Rating: <%= @product.highest_rating_comment %></p>
       <br >
@@ -33,14 +33,14 @@
         
     </div>
   </div>
-</div>
+
 
   <div class="admin-links">
-  <ul class="links-to-pages">
-    <li><%= link_to 'Edit', edit_product_path(@product) %></li>
-    <li><%= link_to 'Back', products_path %></li>
-  </ul>
-</div>
+    <ul class="links-to-pages">
+      <li><%= link_to 'Edit', edit_product_path(@product) %></li>
+      <li><%= link_to 'Back', products_path %></li>
+    </ul>
+  </div>
 
   <%= render 'new_comment' %>
 
@@ -49,7 +49,7 @@
   <%= render 'comments' %>
 
   <%= will_paginate @comments %>
-
+</div>
   
 
 
